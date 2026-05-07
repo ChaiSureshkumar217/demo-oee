@@ -2,6 +2,6 @@ FROM openjdk:17
 
 WORKDIR /app
 
-COPY target/bank-app-1.0.jar app.jar
+COPY target/demo-oee-1.0.jar app.jar
 
 CMD ["java", "-jar", "app.jar"]
